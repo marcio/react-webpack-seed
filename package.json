@@ -1,0 +1,30 @@
+{
+  "name": "react-webpack-seed",
+  "version": "0.0.1",
+  "description": "A simple seed for an app with react and webpack",
+  "author": "Marcio Gasparotto",
+  "repository": "git@github.com:marcio/react-webpack-seed.git",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --progress --colors --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.5.4",
+    "classnames": "^2.1.2",
+    "eventemitter3": "^1.1.1",
+    "flux": "^2.0.3",
+    "lodash": "^3.9.3",
+    "object-assign": "^3.0.0",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3",
+    "superagent": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^5.6.3",
+    "babel-loader": "^5.1.4",
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.9.11"
+  }
+}

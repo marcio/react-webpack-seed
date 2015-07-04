@@ -1,0 +1,8 @@
+{
+    "preset": "google",
+    "requireDotNotation": false,
+    "requireCurlyBraces": null,
+    "excludeFiles": ["node_modules/**"],
+    "verbose": true,
+    "esnext": true
+}
